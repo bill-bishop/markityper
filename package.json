@@ -1,0 +1,33 @@
+{
+  "name": "markityper",
+  "version": "0.0.1-prerelease-3",
+  "description": "Converts markdown formatted text into syntax-aware streams that simulate typing",
+  "type": "module",
+  "main": "./index.mjs",
+  "module": "./index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "default": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "formatting",
+    "typing",
+    "animation",
+    "ai",
+    "agent",
+    "agentic"
+  ],
+  "author": "Bill Bishop",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@formatjs/intl-segmenter": "^11.7.11"
+  }
+}
